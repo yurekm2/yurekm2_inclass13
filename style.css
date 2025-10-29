@@ -13,6 +13,8 @@ html {
 h1 {
   font-size: 48px;
   color: #0083c6;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
 }
 
 h2 { 
@@ -21,12 +23,16 @@ h2 {
 
 a {
   font-size: 16px;
+  font-color: white;
+}
+
+p {
+  line-height: 1.25;
 }
 
 .container {
   display: grid;
   grid-template: repeat(3, 300px) / repeat(2, 500px);
-  order: 2 1 4 3 6 5;
 }
 
 .one {
