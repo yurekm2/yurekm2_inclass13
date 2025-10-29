@@ -26,3 +26,36 @@ a {
 .container {
   display: grid;
 }
+
+.one {
+  background-color: #e92a35;
+  font-color: white;
+}
+
+.two {
+  background-image: url("https://www.sawinlaw.com/wp-content/uploads/2020/06/sawin-knowing-bankruptcy.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.three {
+  background-color: #2d9c5c;
+  font-color: white;
+}
+
+.four {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDPeJ9HM8QeskKM8k6KzrAOx4WrauzyW485w&s");
+  background-size: cover;
+  background-position: center;
+}
+
+.five {
+  background-color: #0083c6;
+  font-color: white;
+}
+
+.six {
+  background-image: url("https://responsivereiding.com/wp-content/uploads/2023/08/judge.jpg");
+  background-size: cover;
+  background-position: center;
+}
