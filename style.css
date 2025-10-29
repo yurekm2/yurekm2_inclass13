@@ -39,6 +39,7 @@ p {
 
 .one {
   display: flex;
+  flex-direction: column;
   border-radius: 15px;
   background-color: #e92a35;
   font-color: white;
@@ -55,6 +56,7 @@ p {
 
 .three {
   display: flex;
+  flex-direction: column;
   border-radius: 15px;
   background-color: #2d9c5c;
   font-color: white;
@@ -71,6 +73,7 @@ p {
 
 .five {
   display: flex;
+  flex-direction: column;
   border-radius: 15px;
   background-color: #0083c6;
   font-color: white;
