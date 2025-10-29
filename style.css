@@ -14,7 +14,7 @@ h1 {
   font-size: 48px;
   color: #0083c6;
   text-transform: uppercase;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.05em;
 }
 
 h2 { 
@@ -33,36 +33,53 @@ p {
 .container {
   display: grid;
   grid-template: repeat(3, 300px) / repeat(2, 500px);
+  padding: 5px;
+  gap: 10px;
 }
 
 .one {
+  display: flex;
+  border-radius: 15px;
   background-color: #e92a35;
   font-color: white;
+  text-align: center;
 }
 
 .two {
+  display: flex;
+  border-radius: 15px;
   background-image: url("https://www.sawinlaw.com/wp-content/uploads/2020/06/sawin-knowing-bankruptcy.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .three {
+  display: flex;
+  border-radius: 15px;
   background-color: #2d9c5c;
   font-color: white;
+  text-align: center;
 }
 
 .four {
+  display: flex;
+  border-radius: 15px;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDPeJ9HM8QeskKM8k6KzrAOx4WrauzyW485w&s");
   background-size: cover;
   background-position: center;
 }
 
 .five {
+  display: flex;
+  border-radius: 15px;
   background-color: #0083c6;
   font-color: white;
+  text-align: center;
 }
 
 .six {
+  display: flex;
+  border-radius: 15px;
   background-image: url("https://responsivereiding.com/wp-content/uploads/2023/08/judge.jpg");
   background-size: cover;
   background-position: center;
